@@ -15,6 +15,8 @@ return
 
 
 !c:: ; circuit basic commands
+Send, sh ver{Enter}
+Sleep, 1000
 Send, sh int desc{Enter}
 Sleep, 1000
 Send, sh ip int bri{Enter}
